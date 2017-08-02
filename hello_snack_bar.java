@@ -15,6 +15,7 @@ public class hello_snack_bar extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hello_snack_bar);
+         text=(TextView)findViewById(R.id.text);
         count = (Button)findViewById(R.id. count);
         count.setOnClickListener(new View.OnClickListener() {
             @Override
